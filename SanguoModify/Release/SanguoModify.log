@@ -1,0 +1,42 @@
+﻿生成启动时间为 2020-07-29 15:11:51。
+     1>项目“C:\Users\lbt42\Desktop\SanguoModify\SanguoModify\SanguoModify\SanguoModify.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\SanguoModify.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\SanguoModify.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SanguoModifyDlg.cpp
+         SanguoModifyDlg.cpp
+     1>SanguoModifyDlg.cpp(276): warning C4018: “<”: 有符号/无符号不匹配
+     1>SanguoModifyDlg.cpp(286): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wchar.h(761) : 参见“_swprintf”的声明
+     1>SanguoModifyDlg.cpp(332): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wchar.h(761) : 参见“_swprintf”的声明
+     1>SanguoModifyDlg.cpp(343): warning C4018: “<”: 有符号/无符号不匹配
+     1>SanguoModifyDlg.cpp(352): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wchar.h(761) : 参见“_swprintf”的声明
+     1>SanguoModifyDlg.cpp(381): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>SanguoModifyDlg.cpp(390): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wchar.h(761) : 参见“_swprintf”的声明
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\SanguoModify.res" SanguoModify.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lbt42\Desktop\SanguoModify\SanguoModify\Release\SanguoModify.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\SanguoModify.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lbt42\Desktop\SanguoModify\SanguoModify\Release\SanguoModify.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lbt42\Desktop\SanguoModify\SanguoModify\Release\SanguoModify.lib" /MACHINE:X86 Release\SanguoModify.res
+         Release\GroupModify.obj
+         Release\SanguoModify.obj
+         Release\SanguoModifyDlg.obj
+         Release\stdafx.obj
+         Release\WuJiangInfo.obj
+         正在生成代码
+         已完成代码的生成
+         SanguoModify.vcxproj -> C:\Users\lbt42\Desktop\SanguoModify\SanguoModify\Release\SanguoModify.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\lbt42\Desktop\SanguoModify\SanguoModify\Release\SanguoModify.exe;#1" /manifest Release\SanguoModify.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\SanguoModify.unsuccessfulbuild”。
+         正在对“Release\SanguoModify.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\lbt42\Desktop\SanguoModify\SanguoModify\SanguoModify\SanguoModify.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.18
